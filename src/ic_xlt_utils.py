@@ -13,7 +13,7 @@ from peft import PeftModel, LoraConfig,TaskType, get_peft_model
 from transformers import Trainer, GenerationConfig
 from sklearn.metrics import f1_score
 
-from data_handling import dataset_multilabel_extractor, extract_outputs_from_list, get_onehot_true_labels
+from src.data_handling import dataset_multilabel_extractor, extract_outputs_from_list, get_onehot_true_labels
 
 
 ## context-related functions
